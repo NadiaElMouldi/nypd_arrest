@@ -1,0 +1,124 @@
+body {
+    /* ref: https://fonts.google.com/specimen/Source+Sans+Pro?selection.family=Source+Sans+Pro */
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 1em 3em;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+
+#count {
+    height:15%;
+    position: relative;
+    top: 0;
+    width: 120%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.toolTip {
+  position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid #6F257F;
+  padding: 14px;
+  text-align: center;
+}
+
+
+  #map{
+    height: 700px;
+    width: 1000px;
+    top: 300;
+    margin:auto;
+    z-index: 0;
+  }
+
+
+  .map-overlay {
+    position: absolute;
+    bottom: 0;
+    right: 50;
+    background: rgba(255, 255, 255, 0.8);
+    margin-left: 20px;
+    font-family: Arial, sans-serif;
+    overflow: auto;
+    border-radius: 3px;
+    z-index: 1;
+  }
+  
+  #features {
+    top: 0;
+    height: 150px;
+    margin-top: 20px;
+    width: 250px;
+    z-index: 1;
+  }
+  
+  #legend {
+    padding: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    line-height: 20px;
+    height: 200px;
+    margin-bottom: 40px;
+    width: 200px;
+    z-index: 1;
+    font-size: 15px;
+  }
+  
+  .legend-key {
+    display: inline-block;
+    border-radius: 20%;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    z-index: 1;
+  }
+
+  #bars{
+    position: relative;
+    flex: 1 30px;
+    margin: 0 2%;
+    width: 50%;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  #bars_pop{
+    flex: 1 30px;
+    margin: 0 2%;
+    width: 50%;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  #bars_m{
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    float: left;
+    margin-left: -100px;
+    margin-top: 50px;
+  }
+
+  
+.label {
+  fill: white;
+  text-anchor: top;
+}
+
+.axis text{
+  font-size: 15px;
+  stroke: black;
+}
+
+.axis path{
+  stroke:black;
+}
+
+.axis line{
+  stroke: black;
+}
